@@ -78,16 +78,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/evgesha/CLionProjects/untitled/delim.c">
+		<Unit filename="/home/evgesha/CLionProjects/untitled/libs/delim.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/evgesha/CLionProjects/untitled/delim.h">
+		<Unit filename="/home/evgesha/CLionProjects/untitled/libs/delim.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/evgesha/CLionProjects/untitled/library.c">
+		<Unit filename="/home/evgesha/CLionProjects/untitled/libs/library.c">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/home/evgesha/CLionProjects/untitled/library.h">
+		<Unit filename="/home/evgesha/CLionProjects/untitled/libs/library.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/home/evgesha/CLionProjects/untitled/main.c">

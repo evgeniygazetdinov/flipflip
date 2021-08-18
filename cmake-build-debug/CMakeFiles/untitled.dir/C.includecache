@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/evgesha/CLionProjects/untitled/delim.h
+/home/evgesha/CLionProjects/untitled/libs/delim.h
 
-/home/evgesha/CLionProjects/untitled/library.h
+/home/evgesha/CLionProjects/untitled/libs/library.c
+delim.h
+/home/evgesha/CLionProjects/untitled/libs/delim.h
+stdio.h
+-
+
+/home/evgesha/CLionProjects/untitled/libs/library.h
 
 /home/evgesha/CLionProjects/untitled/main.c
-library.h
-/home/evgesha/CLionProjects/untitled/library.h
-delim.h
-/home/evgesha/CLionProjects/untitled/delim.h
+libs/library.h
+/home/evgesha/CLionProjects/untitled/libs/library.h
 stdio.h
 -
 

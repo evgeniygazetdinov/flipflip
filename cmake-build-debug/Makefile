@@ -123,59 +123,59 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-delim.o: delim.c.o
+libs/delim.o: libs/delim.c.o
 
-.PHONY : delim.o
-
-# target to build an object file
-delim.c.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/delim.c.o
-.PHONY : delim.c.o
-
-delim.i: delim.c.i
-
-.PHONY : delim.i
-
-# target to preprocess a source file
-delim.c.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/delim.c.i
-.PHONY : delim.c.i
-
-delim.s: delim.c.s
-
-.PHONY : delim.s
-
-# target to generate assembly for a file
-delim.c.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/delim.c.s
-.PHONY : delim.c.s
-
-library.o: library.c.o
-
-.PHONY : library.o
+.PHONY : libs/delim.o
 
 # target to build an object file
-library.c.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/library.c.o
-.PHONY : library.c.o
+libs/delim.c.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/libs/delim.c.o
+.PHONY : libs/delim.c.o
 
-library.i: library.c.i
+libs/delim.i: libs/delim.c.i
 
-.PHONY : library.i
+.PHONY : libs/delim.i
 
 # target to preprocess a source file
-library.c.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/library.c.i
-.PHONY : library.c.i
+libs/delim.c.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/libs/delim.c.i
+.PHONY : libs/delim.c.i
 
-library.s: library.c.s
+libs/delim.s: libs/delim.c.s
 
-.PHONY : library.s
+.PHONY : libs/delim.s
 
 # target to generate assembly for a file
-library.c.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/library.c.s
-.PHONY : library.c.s
+libs/delim.c.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/libs/delim.c.s
+.PHONY : libs/delim.c.s
+
+libs/library.o: libs/library.c.o
+
+.PHONY : libs/library.o
+
+# target to build an object file
+libs/library.c.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/libs/library.c.o
+.PHONY : libs/library.c.o
+
+libs/library.i: libs/library.c.i
+
+.PHONY : libs/library.i
+
+# target to preprocess a source file
+libs/library.c.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/libs/library.c.i
+.PHONY : libs/library.c.i
+
+libs/library.s: libs/library.c.s
+
+.PHONY : libs/library.s
+
+# target to generate assembly for a file
+libs/library.c.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/libs/library.c.s
+.PHONY : libs/library.c.s
 
 main.o: main.c.o
 
@@ -213,12 +213,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... untitled"
 	@echo "... edit_cache"
-	@echo "... delim.o"
-	@echo "... delim.i"
-	@echo "... delim.s"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
+	@echo "... libs/delim.o"
+	@echo "... libs/delim.i"
+	@echo "... libs/delim.s"
+	@echo "... libs/library.o"
+	@echo "... libs/library.i"
+	@echo "... libs/library.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

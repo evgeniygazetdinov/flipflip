@@ -70,44 +70,44 @@ CMakeFiles/untitled.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/main.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/evgesha/CLionProjects/untitled/main.c -o CMakeFiles/untitled.dir/main.c.s
 
-CMakeFiles/untitled.dir/library.c.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/library.c.o: ../library.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evgesha/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/library.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/library.c.o   -c /home/evgesha/CLionProjects/untitled/library.c
+CMakeFiles/untitled.dir/libs/library.c.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/libs/library.c.o: ../libs/library.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evgesha/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/untitled.dir/libs/library.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/libs/library.c.o   -c /home/evgesha/CLionProjects/untitled/libs/library.c
 
-CMakeFiles/untitled.dir/library.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/library.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/evgesha/CLionProjects/untitled/library.c > CMakeFiles/untitled.dir/library.c.i
+CMakeFiles/untitled.dir/libs/library.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/libs/library.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/evgesha/CLionProjects/untitled/libs/library.c > CMakeFiles/untitled.dir/libs/library.c.i
 
-CMakeFiles/untitled.dir/library.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/library.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/evgesha/CLionProjects/untitled/library.c -o CMakeFiles/untitled.dir/library.c.s
+CMakeFiles/untitled.dir/libs/library.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/libs/library.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/evgesha/CLionProjects/untitled/libs/library.c -o CMakeFiles/untitled.dir/libs/library.c.s
 
-CMakeFiles/untitled.dir/delim.c.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/delim.c.o: ../delim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evgesha/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled.dir/delim.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/delim.c.o   -c /home/evgesha/CLionProjects/untitled/delim.c
+CMakeFiles/untitled.dir/libs/delim.c.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/libs/delim.c.o: ../libs/delim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/evgesha/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/untitled.dir/libs/delim.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/untitled.dir/libs/delim.c.o   -c /home/evgesha/CLionProjects/untitled/libs/delim.c
 
-CMakeFiles/untitled.dir/delim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/delim.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/evgesha/CLionProjects/untitled/delim.c > CMakeFiles/untitled.dir/delim.c.i
+CMakeFiles/untitled.dir/libs/delim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled.dir/libs/delim.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/evgesha/CLionProjects/untitled/libs/delim.c > CMakeFiles/untitled.dir/libs/delim.c.i
 
-CMakeFiles/untitled.dir/delim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/delim.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/evgesha/CLionProjects/untitled/delim.c -o CMakeFiles/untitled.dir/delim.c.s
+CMakeFiles/untitled.dir/libs/delim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled.dir/libs/delim.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/evgesha/CLionProjects/untitled/libs/delim.c -o CMakeFiles/untitled.dir/libs/delim.c.s
 
 # Object files for target untitled
 untitled_OBJECTS = \
 "CMakeFiles/untitled.dir/main.c.o" \
-"CMakeFiles/untitled.dir/library.c.o" \
-"CMakeFiles/untitled.dir/delim.c.o"
+"CMakeFiles/untitled.dir/libs/library.c.o" \
+"CMakeFiles/untitled.dir/libs/delim.c.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
 untitled: CMakeFiles/untitled.dir/main.c.o
-untitled: CMakeFiles/untitled.dir/library.c.o
-untitled: CMakeFiles/untitled.dir/delim.c.o
+untitled: CMakeFiles/untitled.dir/libs/library.c.o
+untitled: CMakeFiles/untitled.dir/libs/delim.c.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/evgesha/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable untitled"
