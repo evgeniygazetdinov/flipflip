@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/evgesha/CLionProjects/untitled/delim.h
+
+/home/evgesha/CLionProjects/untitled/library.h
+
+/home/evgesha/CLionProjects/untitled/main.c
+library.h
+/home/evgesha/CLionProjects/untitled/library.h
+delim.h
+/home/evgesha/CLionProjects/untitled/delim.h
+stdio.h
+-
+
