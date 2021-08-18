@@ -5,7 +5,6 @@
 
 extern int data;
 
-
 int main(int argc, char** argv) {
     args_parser(argc, argv);
     return 0;
