@@ -14,7 +14,6 @@ void args_parser(int argc, char** argv){
     if(argc > 1) {
 
         for (int i = 1; i < argc; i++) {
-            printf("")
             printf("%d=%d\n",argc,count_words(argv[i]));
         }
     }
