@@ -90,6 +90,12 @@
 		<Unit filename="/home/evgesha/CLionProjects/untitled/libs/library.h">
 			<Option target="untitled"/>
 		</Unit>
+		<Unit filename="/home/evgesha/CLionProjects/untitled/libs/plus_minus.c">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/home/evgesha/CLionProjects/untitled/libs/plus_minus.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="/home/evgesha/CLionProjects/untitled/main.c">
 			<Option target="untitled"/>
 		</Unit>

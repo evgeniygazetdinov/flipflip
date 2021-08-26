@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled.dir/main.c.o"
   "CMakeFiles/untitled.dir/libs/library.c.o"
   "CMakeFiles/untitled.dir/libs/delim.c.o"
+  "CMakeFiles/untitled.dir/libs/plus_minus.c.o"
   "untitled.pdb"
   "untitled"
 )

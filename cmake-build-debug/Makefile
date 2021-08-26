@@ -177,6 +177,33 @@ libs/library.c.s:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/libs/library.c.s
 .PHONY : libs/library.c.s
 
+libs/plus_minus.o: libs/plus_minus.c.o
+
+.PHONY : libs/plus_minus.o
+
+# target to build an object file
+libs/plus_minus.c.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/libs/plus_minus.c.o
+.PHONY : libs/plus_minus.c.o
+
+libs/plus_minus.i: libs/plus_minus.c.i
+
+.PHONY : libs/plus_minus.i
+
+# target to preprocess a source file
+libs/plus_minus.c.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/libs/plus_minus.c.i
+.PHONY : libs/plus_minus.c.i
+
+libs/plus_minus.s: libs/plus_minus.c.s
+
+.PHONY : libs/plus_minus.s
+
+# target to generate assembly for a file
+libs/plus_minus.c.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/libs/plus_minus.c.s
+.PHONY : libs/plus_minus.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... libs/library.o"
 	@echo "... libs/library.i"
 	@echo "... libs/library.s"
+	@echo "... libs/plus_minus.o"
+	@echo "... libs/plus_minus.i"
+	@echo "... libs/plus_minus.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

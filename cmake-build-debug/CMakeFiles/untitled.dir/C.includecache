@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/evgesha/CLionProjects/untitled/libs/delim.h
-
-/home/evgesha/CLionProjects/untitled/libs/library.c
-delim.h
-/home/evgesha/CLionProjects/untitled/libs/delim.h
+/home/evgesha/CLionProjects/untitled/libs/plus_minus.c
 stdio.h
 -
 

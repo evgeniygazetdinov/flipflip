@@ -6,6 +6,9 @@ CMakeFiles/untitled.dir/libs/delim.c.o: ../libs/delim.c
 CMakeFiles/untitled.dir/libs/library.c.o: ../libs/delim.h
 CMakeFiles/untitled.dir/libs/library.c.o: ../libs/library.c
 
+CMakeFiles/untitled.dir/libs/plus_minus.c.o: ../libs/plus_minus.c
+
 CMakeFiles/untitled.dir/main.c.o: ../libs/library.h
+CMakeFiles/untitled.dir/main.c.o: ../libs/plus_minus.h
 CMakeFiles/untitled.dir/main.c.o: ../main.c
 
