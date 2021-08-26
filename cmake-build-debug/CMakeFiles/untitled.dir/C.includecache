@@ -9,4 +9,8 @@
 /home/evgesha/CLionProjects/untitled/libs/plus_minus.c
 stdio.h
 -
+stdlib.h
+-
+string.h
+-
 
