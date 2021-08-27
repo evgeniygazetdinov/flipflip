@@ -6,5 +6,6 @@
 #define UNTITLED_PLUS_MINUS_H
 char* plus_minus();
 int return_quatity_digits(int* my_digits);
-void equalize(char* empty_string, int* quatity);
+void equalize(int* numbers);
+int* make_array_with_digits(int counter,int  my_digits);
 #endif //UNTITLED_PLUS_MINUS_H

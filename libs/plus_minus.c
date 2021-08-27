@@ -16,23 +16,41 @@ int return_quatity_digits(int* my_digits){
     return counter;
 }
 
+int* make_array_with_digits(int* counter,int* my_digits){
+    int COUNTER = *counter;
+    int DIGITS = *my_digits;
 
-void equalize(char* empty_string, int* quatity){
-    printf("%d",*quatity);
-    printf("%d", *empty_string);
+    int *ret = malloc(COUNTER);
+    if(!ret){
+        return NULL;
+    }
+    while(COUNTER!=0){
+        int begin = COUNTER;
+        int digit = DIGITS % 10;
+        // do something with digit
+        DIGITS /= 10;
+
+        ret[COUNTER - 1] = digit;
+        COUNTER--;
+    }
+    return ret;
+}
+
+void equalize(char* empty_string, int* quatity,int* numbers){
+
+    int* my_array = make_array_with_digits(quatity, numbers);
     // TODO add algorith for analize digits git
     //TODO find algorithm for find right symol
     //TODO add function insert into end array
+    free(my_array);
 }
 
-
-char* plus_minus(){
-    int my_ = 1234;
+char* plus_minus(int* digit){
     //find quatity for string allocate
-    int quatity = return_quatity_digits(&my_);
+    int quatity = return_quatity_digits(digit);
     //make string
     char* str = malloc(quatity);
-    equalize(str, &quatity);
+    equalize(str, &quatity, digit);
 
     str = "her";
     printf("%s",str);

@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/evgesha/CLionProjects/untitled/libs/plus_minus.c
-stdio.h
--
-stdlib.h
--
-string.h
--
+/home/evgesha/CLionProjects/untitled/libs/library.h
+
+/home/evgesha/CLionProjects/untitled/libs/plus_minus.h
+
+/home/evgesha/CLionProjects/untitled/main.c
+libs/library.h
+/home/evgesha/CLionProjects/untitled/libs/library.h
+libs/plus_minus.h
+/home/evgesha/CLionProjects/untitled/libs/plus_minus.h
 
