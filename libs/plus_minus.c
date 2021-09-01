@@ -5,6 +5,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+const char OPERATORS[2] = {'-', '+'};
+
 
 int return_quatity_digits(int* my_digits){
     int counter = 0;
@@ -36,10 +38,19 @@ int* make_array_with_digits(int* counter,int* my_digits){
     return ret;
 }
 
+void calculate(int* my_array, int* quantity){
+    int result;
+}
+
+void analizer(int* my_array,int* quantity){
+    int result;
+    calculate(my_array, quantity);
+}
 void equalize(char* empty_string, int* quatity,int* numbers){
 
     int* my_array = make_array_with_digits(quatity, numbers);
     // TODO add algorith for analize digits git
+    analizer(my_array, quatity);
     //TODO find algorithm for find right symol
     //TODO add function insert into end array
     free(my_array);

@@ -11,6 +11,6 @@ int main(int argc, char** argv) {
     int my_digits2 = 26712;
     plus_minus(&my_digits);
     plus_minus(&my_digits2);
-    args_parser(argc, argv);
+//args_parser(argc, argv);
     return 0;
 }
