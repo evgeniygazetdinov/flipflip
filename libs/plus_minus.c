@@ -39,7 +39,23 @@ int* make_array_with_digits(int* counter,int* my_digits){
 }
 
 void calculate(int* my_array, int* quantity){
-    int result;
+    int result = 0;
+    char* symbols;
+    int count = 0;
+    int start =0;
+    while (count != (*quantity)){
+        if((my_array[count] + my_array[count+1]) != 0){
+            result = my_array[count] - my_array[count+1];
+            symbols[count] = '+';
+
+
+        }
+        else{
+            result =my_array[count] - my_array[count+1];
+            symbols[count] = '-';
+        }
+        count++;
+    }
 }
 
 void analizer(int* my_array,int* quantity){
